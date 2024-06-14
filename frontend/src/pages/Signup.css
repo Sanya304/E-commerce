@@ -1,0 +1,24 @@
+.signup__image--container {
+  background-image: url(https://images.unsplash.com/photo-1498036882173-b41c28a8ba34?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHRlY2hub2xvZ3l8ZW58MHwxfDB8fHww);
+  height: 90vh;
+  background-size: cover;
+}
+.signup__form--container,
+.login__form--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.login__image--container {
+  background-image: url(https://images.unsplash.com/photo-1538391543564-047a76156421?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRlY2hub2xvZ3l8ZW58MHwxfDB8fHww);
+  height: 90vh;
+  background-size: cover;
+}
+@media screen and (max-width: 756px) {
+  .login__image--container,
+  .signup__image--container {
+    display: none;
+  }
+}
